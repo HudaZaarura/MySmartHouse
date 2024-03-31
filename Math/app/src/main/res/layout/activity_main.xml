@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/aEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="87dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/A"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:onClick="Ax"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/bEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="B"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:onClick="By"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/aEditText"
+        app:layout_constraintTop_toBottomOf="@+id/aEditText"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/cEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="C"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:onClick="C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bEditText"
+        app:layout_constraintTop_toBottomOf="@+id/bEditText"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/solveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="37dp"
+        android:onClick="calculate"
+        android:text="@string/calculate"
+        app:layout_constraintEnd_toEndOf="@+id/cEditText"
+        app:layout_constraintTop_toBottomOf="@+id/cEditText" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="98dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="238dp"
+        android:text="result"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/solveButton"
+        app:layout_constraintHorizontal_bias="0.775"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/solveButton"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

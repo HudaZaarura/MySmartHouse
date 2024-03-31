@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "799445565679",
+    "project_id": "rent-haven",
+    "storage_bucket": "rent-haven.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799445565679:android:8fa75e46ee95be19731b1a",
+        "android_client_info": {
+          "package_name": "com.example.rent_haven"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATZcAjQtNpb0OcnFUqmOa-Et8SkPalnv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

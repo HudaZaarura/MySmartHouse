@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "222387490999",
+    "project_id": "loginsignup-d4dda",
+    "storage_bucket": "loginsignup-d4dda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222387490999:android:109edd9842569ce865bd32",
+        "android_client_info": {
+          "package_name": "com.example.loginsignup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6C2RnA3OITHxU_1rPg7zS8H30o0Yjs6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

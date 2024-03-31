@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">704781513149</string>
+    <string name="google_api_key" translatable="false">AIzaSyBflDoyKYB1YLClYC_q7NKHdCeWer5VN5o</string>
+    <string name="google_app_id" translatable="false">1:704781513149:android:393c1a46c82061ae8da2d4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBflDoyKYB1YLClYC_q7NKHdCeWer5VN5o</string>
+    <string name="google_storage_bucket" translatable="false">smarthouse1-66733.appspot.com</string>
+    <string name="project_id" translatable="false">smarthouse1-66733</string>
+</resources>

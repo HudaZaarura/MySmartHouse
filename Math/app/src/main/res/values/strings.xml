@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Math</string>
+    <string name="calculate">Calculate</string>
+    <string name="a">a</string>
+    <string name="c">c</string>
+    <string name="b">b</string>
+    <string name="A">A</string>
+</resources>
